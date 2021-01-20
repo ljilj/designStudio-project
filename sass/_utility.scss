@@ -1,0 +1,50 @@
+.u-container {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.u-container-lg {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.u-uppercase {
+    text-transform: uppercase;
+}
+
+.u-text-center {
+    text-align: center;
+}
+
+.u-color-warning {
+    color: var(--color-warning);
+}
+
+.u-px {
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
+}
+
+.u-my {
+
+    @media (min-width: $mobile-sm) {
+        margin-block-start: 7rem;
+        margin-block-end: 7rem;
+    }
+}
+
+.u-bkg--success {
+    background-color: var(--color-success);
+}
+.u-bkg--primary {
+    background-color: var(--color-primary);
+}
+.u-bkg--warning {
+    background-color: var(--color-warning);
+}
+.u-bkg--pink {
+    background-color: var(--color-pink);
+}
+.u-color--pink {
+    color: var(--color-pink);
+}
