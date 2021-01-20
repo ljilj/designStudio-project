@@ -1,0 +1,168 @@
+/*** Hero Section ***/ 
+.c-hero-section {
+    min-height: 85vh;
+    background: url('../images/hero-img.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.c-hero__icon {
+    position: absolute;
+    top: 22%;
+    left: -0.5rem;
+    color: var(--color-warning);
+}
+
+.c-hero {
+    position: absolute;
+    top: 30%;
+
+    h1,
+    p {
+        max-width: 30rem;
+    }
+
+    p {
+        margin-block-start: 1rem;
+    }
+}
+
+
+/*** About Section ***/ 
+.c-about-section {
+    margin-block-start: 6rem;
+    margin-block-end: 6rem;
+}
+
+.c-about__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-about__container {
+    @media (min-width: $mobile-sm) {
+        margin-block-start: 1rem;
+    }
+
+    @media (min-width: 1100px) {
+        margin-block-start: 3rem;
+    }
+
+    h2 {
+        margin-block-end: 1rem;
+    }
+}
+
+
+/*** Web Design Section ***/ 
+.c-team__title {
+    margin-block-start: 4rem;
+    margin-block-end: 4rem;
+}
+
+.c-web-design-section {
+    background-color: var(--color-grey-light);
+}
+
+.c-web-design__content {
+    @media (min-width: $mobile-sm) {
+        margin-block-start: 4rem;
+    }
+
+    h2 {
+        margin-block-end: 1rem;
+    }
+
+    p {
+        margin-block-end: 1rem;
+    }
+}
+
+.c-web-design__img {
+    margin: 2rem auto;
+}
+
+
+/*** Team Section ***/ 
+.c-team {
+    @media(min-width: $desktop-md) {
+        background-color: var(--color-grey-light);
+        padding: 3rem;
+    }
+}
+
+.c-team__container {
+    text-align: center;
+
+    h3 {
+        font-weight: bold;
+        color: var(--color-grey);
+    }
+}
+
+.c-team-icon__container {
+    color: var(--color-grey);
+
+    svg {
+        &:hover {
+            color: var(--color-pink);
+        }
+    }
+}
+
+
+/*** Contact Section ***/ 
+.c-contact-section {
+    padding-block-start: 5rem;
+    padding-block-end: 5rem;
+    background-color: var(--color-black);
+    color: var(--color-white);
+
+    hr {
+        margin: 2rem auto;
+        width: 5rem;
+        height: 0.2rem;
+        border: none;
+    }
+
+    .c-contact__desc {
+        max-width: 43.75rem;
+        margin: 0 auto 3rem;
+        text-align: center;
+    }
+}
+
+.c-contact__container {
+    margin-block-start: 2rem;
+    padding-block-start: 2rem;
+    padding-block-end: 2rem;
+    background-color: var(--color-warning);
+    text-align: center;
+
+    .c-contact__icon {
+        color: var(--color-white);
+    }
+
+    h3 {
+        font-weight: bold;
+        margin-block-end: 0.5rem;
+    }
+
+    h4 {
+        margin-block-end: 0.15rem;
+    }
+}
+
+/*** Footer ***/ 
+.c-footer-icon__container {
+    text-align: center;
+    color: var(--color-white);
+
+    svg:hover {
+        color: var(--color-warning);
+    }
+}
+
+
